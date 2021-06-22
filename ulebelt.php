@@ -1,5 +1,7 @@
+
 <?php
 include 'config.php';
+
 
 $sql = "SELECT * from ecoinfo";
 $result = $conn->query($sql);
